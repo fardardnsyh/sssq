@@ -1,0 +1,145 @@
+.sidebar_container {
+   width: 100%;
+   height: 100%;
+   background-color: #242424;
+   border-radius: 20px;
+   padding: 30px;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.sidebar_btns_custom_cursor {
+   cursor: url(/cursor2.png), auto;
+   padding: 5px;
+}
+
+.sidebar_container_icons {
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.history_container_section {
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 10px 0 10px 0;
+   padding: 10px 0 10px 0;
+   overflow-y: auto;
+   overflow-x: hidden;
+}
+
+/* default style  */
+.sidebar_container_toggle_style {
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+   border-radius: 20px;
+   padding: 10px 1.1rem;
+   margin-top: 20px;
+   cursor: url(/cursor2.png), auto;
+
+}
+
+.sidebar_container_toggle_style p {
+   font-size: 1.2rem;
+   font-weight: 900;
+   margin: 0;
+}
+
+/* additional */
+
+.sidebar_container_newchat {
+   background-color: #9E9E9E;
+   color: #1E1E1E;
+}
+
+.sidebar_container_newchat img {
+   width: 30px;
+   height: 30px;
+   margin-left: auto;
+}
+
+.sidebar_container_history {
+   background-color: #393939;
+   color: #D1D1D1;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   transition: background-color 0.3s ease;
+}
+
+.sidebar_container_history:hover {
+   background-color: #4D4D4D;
+}
+
+
+.sidebar_container_userprofile {
+   background-color: #393939;
+   margin-top: auto;
+   overflow: hidden;
+   
+}
+
+.sidebar_container_userprofile a {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 15px;
+   text-decoration: none;
+   cursor: url(/cursor2.png), auto;
+}
+
+.sidebar_container_userprofile img {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+
+.removebtn {
+   background-color: #393939;
+   color: #D1D1D1;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+   border-radius: 10px;
+   cursor: url(/cursor2.png), auto;
+}
+
+.removebtn:hover {
+   scale: 1.1;
+}
+
+/* responsive */
+@media (max-width: 520px) {
+   .sidebar_container_newchat {
+      display: none;
+   }
+
+   #newchatbtnicon {
+      display: none;
+   }
+
+   .sidebar_container_toggle_style {
+      display: none;
+   }
+
+   .sidebar_container {
+      display: none;
+   }
+
+}

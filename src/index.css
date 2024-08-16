@@ -1,0 +1,118 @@
+/* Resetting or normalizing default browser styles */
+
+/* Universal Box Sizing */
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+/* Basic Reset */
+html,
+body {
+   width: 100vw;
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   overflow: hidden;
+}
+
+/* Ensure anchors and buttons look consistent */
+a {
+   color: inherit;
+   text-decoration: none;
+}
+
+button {
+   background: none;
+   border: none;
+   font: inherit;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+   padding: 0;
+   font-weight: normal;
+   /* Adjust as needed */
+}
+
+/* Lists */
+ul,
+ol {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+/* Images and Media */
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+/* Forms */
+input,
+textarea,
+select,
+button {
+   font: inherit;
+   margin: 0;
+   padding: 0;
+}
+
+/* Layout Styles */
+.container {
+   width: 100%;
+   max-width: 1200px;
+   /* Adjust to your max width */
+   margin: 0 auto;
+   padding: 0 20px;
+   /* Adjust padding as needed */
+}
+
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   margin: -10px;
+   /* Adjust to control gutter */
+}
+
+.col {
+   padding: 10px;
+   /* Adjust to control gutter */
+   flex: 1;
+}
+
+/* Utility Classes */
+.text-center {
+   text-align: center;
+}
+
+.mt-1 {
+   margin-top: 0.25rem;
+}
+
+.mt-2 {
+   margin-top: 0.5rem;
+}
+
+.mt-3 {
+   margin-top: 1rem;
+}
+
+/* Add more margin and padding utility classes as needed */
+
+body {
+   background-color: #393939;
+   color: #fff;
+   cursor: url(/cursor1.png), auto;
+}
+
+/* Add more custom styles for your app here */

@@ -1,0 +1,41 @@
+.chat_container {
+   width: 100%;
+   height: fit-content;
+   margin-top: 30px;
+}
+
+.prompt {
+   width: 60%;
+   height: fit-content;
+   background-color: #393939;
+   text-align: left;
+   padding: 15px;
+   border-radius: 15px;
+}
+
+.prompt p {
+   margin: 0;
+}
+
+.user_prompt {
+   margin-left: auto;
+   margin-right: 25px;
+}
+
+.god_prompt {
+   margin-right: auto;
+}
+
+.god_avatar{
+   width: fit-content;
+   height: fit-content;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 10px;
+}
+
+.god_avatar p{
+   margin: 0;
+   font-weight: 800;
+}
